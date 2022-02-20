@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 table,th,td {
   border : 1px solid black;
@@ -13,8 +14,8 @@ th,td {
 
 <h1>Search city using mobile number</h1>
 
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search using mobile number" title="Type in a mobile number">
 <button type="button" onclick="loadDoc()">Search City</button>
- <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search using mobile number" title="Type in a mobile number">
 <br><br>
 <table id="demo"></table>
 
